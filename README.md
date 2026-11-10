@@ -13,7 +13,11 @@ Instant Refactoring: Receive clean, normalized code suggestions with scan confli
 
 Want to test it out? Grab the package directly from GitHub, extract it, and open index.html  
 
+#originalVersion
 If you want to update the Gemini 3.8 fetch to the latest use the following below: 
 const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${apiKey}`, {
 
 You can edit the index.html file source code, and find FETCH. Then copy provided 3.8. 
+#originalVersion--
+
+New version added for testing purposes.
